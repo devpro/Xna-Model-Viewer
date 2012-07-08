@@ -107,14 +107,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CameraBase.cs" />
-    <Compile Include="External\XNAUtils.cs" />
-    <Compile Include="GameBase.cs" />
-    <Compile Include="Model3D.cs" />
+    <Compile Include="Core\CameraBase.cs" />
+    <Compile Include="Core\ChaseCamera.cs" />
+    <Compile Include="Core\FreeCamera.cs" />
+    <Compile Include="Core\TargetCamera.cs" />
     <Compile Include="ModelViewerGame.cs" />
+    <Compile Include="Core\CustomModel.cs" />
+    <Compile Include="External\XNAUtils.cs" />
+    <Compile Include="Core\GameBase.cs" />
+    <Compile Include="SimpleModel.cs" />
+    <Compile Include="SimpleModelViewerGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Game1.cs" />
+    <Compile Include="EmptyGame.cs" />
     <Compile Include="SimpleCamera.cs" />
   </ItemGroup>
   <ItemGroup>

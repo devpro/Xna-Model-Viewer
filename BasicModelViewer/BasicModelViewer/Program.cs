@@ -10,7 +10,7 @@ namespace BasicModelViewer
     /// </summary>
     static void Main(string[] args)
     {
-      using (var game = new ModelViewerGame())
+      using (var game = new ModelViewerGame()) // SimpleModelViewerGame
       {
         game.Run();
       }
@@ -18,4 +18,3 @@ namespace BasicModelViewer
   }
 #endif
 }
-
